@@ -14,7 +14,7 @@ app.get('/',function(req,res){
     }else{
         //res.cookie这个方法其实是没有的，这个是cookieParsesr里面带的
         res.cookie('isVisited','1',{maxAge:20*1000});
-        res.send('欢迎新朋友1');
+        res.send('欢迎新朋友2');
     }
 })
 app.listen(8080);
