@@ -15,7 +15,7 @@ http.createServer(function(req,res){
         var cookie=req.headers.cookie;
         var cookieObj=querystring.parse(cookie,';');
         console.log(cookieObj);
-        res.end('read3333');
+        res.end('read444');
     }
 
 }).listen(8081);
